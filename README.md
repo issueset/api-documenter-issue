@@ -1,1 +1,1 @@
-https://github.com/issueset/api-documenter-issue/
+https://github.com/microsoft/rushstack/issues/2950
