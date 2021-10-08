@@ -5,7 +5,10 @@
 ```ts
 
 // @public
-export function MyFunction(): boolean;
+export function MyFunction1(): boolean;
+
+// @public
+export function MyFunction2(): boolean;
 
 // (No @packageDocumentation comment for this package)
 

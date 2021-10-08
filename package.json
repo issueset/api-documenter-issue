@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc && api-extractor run --local --verbose"
+    "build": "tsc && api-extractor run --local --verbose && api-documenter generate -i ./temp -o ./docs"
   },
   "author": "",
   "license": "ISC",

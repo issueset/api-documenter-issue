@@ -1,5 +1,12 @@
 /**
- * MyFunction returns `false`
+ * MyFunction1 returns `true`
+ */
+function MyFunction1() {
+  return true;
+}
+
+/**
+ * MyFunction2 returns `false`
  *
  * @public
  *
@@ -9,8 +16,8 @@
  * let result = MyFunction()
  * ```
  */
-function MyFunction() {
-    return false
+function MyFunction2() {
+  return false;
 }
 
-export {MyFunction}
+export { MyFunction1, MyFunction2 };
